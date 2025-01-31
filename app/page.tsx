@@ -20,17 +20,17 @@ export default async function Home() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {/* Card Statistik */}
           <div className="bg-white p-4 rounded-lg shadow-sm">
-            <h3 className="text-gray-500 text-sm mb-2">Total Data</h3>
+            <h3 className="text-gray-500 text-sm mb-2">Total Surat</h3>
             <p className="text-2xl font-bold">0</p>
           </div>
 
           <div className="bg-white p-4 rounded-lg shadow-sm">
-            <h3 className="text-gray-500 text-sm mb-2">Data Hari Ini</h3>
+            <h3 className="text-gray-500 text-sm mb-2">Surat Hari Ini</h3>
             <p className="text-2xl font-bold">0</p>
           </div>
 
           <div className="bg-white p-4 rounded-lg shadow-sm">
-            <h3 className="text-gray-500 text-sm mb-2">Data Bulan Ini</h3>
+            <h3 className="text-gray-500 text-sm mb-2">Surat Bulan Ini</h3>
             <p className="text-2xl font-bold">0</p>
           </div>
         </div>

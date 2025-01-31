@@ -65,7 +65,7 @@ const Sidebar = ({ userRole }: SidebarProps) => {
     <aside className="fixed left-0 h-full w-64 bg-white shadow-sm">
       {/* Logo */}
       <div className="h-16 flex items-center gap-2 px-4 border-b">
-        <div className="text-2xl font-bold text-orange-500">e-Rekap</div>
+        <div className="text-2xl font-bold text-orange-500">Permintaan Data</div>
       </div>
 
       {/* Menu */}

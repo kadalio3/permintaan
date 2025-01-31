@@ -5,24 +5,8 @@ import { getSuratKeluar } from "@/lib/surat";
 import TambahSuratKeluarForm from "@/components/surat/keluar/tambah-surat-form";
 import { FiEdit2, FiTrash2 } from "react-icons/fi";
 import { deleteSuratKeluar, UpdateSuratKeluar } from "@/app/api/surat/route";
+import { formatDate, formatDateTime } from "@/lib/date"
 
-function formatDate(date: Date) {
-  return new Date(date).toLocaleDateString("id-ID", {
-    day: "2-digit",
-    month: "long",
-    year: "numeric",
-  });
-}
-
-function formatDateTime(date: Date) {
-  return new Date(date).toLocaleDateString("id-ID", {
-    day: "2-digit",
-    month: "short",
-    year: "numeric",
-    hour: "2-digit",
-    minute: "2-digit",
-  });
-}
 
 export default function SuratKeluarPage({ suratKeluar: initialSuratKeluar }: { suratKeluar: SuratKeluar[] }) {
   const [showForm, setShowForm] = useState(false);
